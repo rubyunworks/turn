@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'turn'
+
+Turn::CLI.run(*ARGV)
+

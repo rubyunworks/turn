@@ -1,0 +1,33 @@
+#!/usr/bin/env ruby
+
+#require File.dirname(__FILE__) + '/lib/test/unit/runner/tap-version'
+
+name    "turn"
+version "1.0.0"
+title   "Turn"
+summary "Test Run Formatter"
+
+description "Test Run Formatter"
+
+authors [
+  'Thomas Sawyer <transfire@gmail.com>',
+  'Tim Pease'
+]
+
+requirements [
+  'tapout',
+  'minitap',
+  'rspec-ontap',
+  'test-unit-runner-tap',
+  'detroit (build)'
+]
+
+resources(
+  'home' => 'https://github.com/test-unit/turn',
+  'code' => 'https://github.com/test-unit/turn'
+)
+
+copyrights [
+  '2012 Thomas Sawyer (BSD-2-Clause)'
+]
+
